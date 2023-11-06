@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+.element{
+    width: 200px;
+    height: 200px;
+    background-color: steelblue;
+    margin: 60px;
+    
+     
+    /*transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ;
+    transition-delay: 2s; */
+
+    transition: 1s transform ;
+
+    /*  */
+}
+
+
+.container:hover .element{
+    background-color: #000;
+    transform: translate(200px);
+}
